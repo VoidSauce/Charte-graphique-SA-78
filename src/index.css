@@ -4683,7 +4683,7 @@ input, textarea, select {
 }
 
 :root {
-  --brand-rouge: #e74c3c;
+  --brand-rouge: #E62727;
   --brand-blanc: #fff;
   --brand-bleu: #0055a4;
   --brand-bleu-light: #3498db;
@@ -4707,7 +4707,7 @@ input, textarea, select {
   --muted-foreground: var(--auto-engine);
   --accent: var(--brand-bleu-light);
   --accent-foreground: var(--brand-blanc);
-  --destructive: #e74c3c;
+  --destructive: #E62727;
   --destructive-foreground: var(--brand-blanc);
   --border: #2c3e501a;
   --input: transparent;
@@ -4819,7 +4819,7 @@ html {
   .nav-button.active {
     color: var(--brand-rouge);
     border-right: 2px solid var(--brand-rouge);
-    background-color: #e74c3c1a;
+    background-color: #E627271a;
   }
 }
 

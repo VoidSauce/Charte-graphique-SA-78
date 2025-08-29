@@ -1,19 +1,19 @@
 @custom-variant dark (&:is(.dark *));
 
-:root {  
+:root {
   /* French Tricolor Brand Colors */
-  --brand-rouge: #e74c3c;     /* French Red */
+  --brand-rouge: #E62727;     /* French Red */
   --brand-blanc: #ffffff;     /* French White */
   --brand-bleu: #0055A4 ;      /* French Blue */
   --brand-bleu-light: #3498db; /* Light Blue accent */
-  
+
   /* Automotive Colors */
   --auto-steel: #6c757d;      /* Steel gray for metal parts */
   --auto-engine: #495057;     /* Dark gray for engine parts */
   --auto-oil: #212529;        /* Near black for oil/fluids */
   --auto-warning: #f39c12;    /* Orange for warnings */
   --auto-success: #27ae60;    /* Green for success states */
-  
+
   /* Base system colors */
   --font-size: 14px;
   --background: var(--brand-blanc);
@@ -124,7 +124,7 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
-  
+
   /* Custom automotive brand classes */
   --color-brand-rouge: var(--brand-rouge);
   --color-brand-blanc: var(--brand-blanc);
@@ -246,7 +246,7 @@ html {
   .text-auto-engine { color: var(--auto-engine); }
   .text-auto-warning { color: var(--auto-warning); }
   .text-auto-success { color: var(--auto-success); }
-  
+
   .bg-brand-rouge { background-color: var(--brand-rouge); }
   .bg-brand-blanc { background-color: var(--brand-blanc); }
   .bg-brand-bleu { background-color: var(--brand-bleu); }
@@ -255,7 +255,7 @@ html {
   .bg-auto-engine { background-color: var(--auto-engine); }
   .bg-auto-warning { background-color: var(--auto-warning); }
   .bg-auto-success { background-color: var(--auto-success); }
-  
+
   .border-brand-rouge { border-color: var(--brand-rouge); }
   .border-brand-bleu { border-color: var(--brand-bleu); }
   .border-brand-bleu-light { border-color: var(--brand-bleu-light); }
@@ -270,20 +270,20 @@ html {
     border: 1px solid var(--brand-bleu);
     transition: all 0.2s ease-in-out;
   }
-  
+
   .btn-primary:hover {
     background-color: var(--brand-bleu-light);
     border-color: var(--brand-bleu-light);
   }
-  
-  .btn-primary.active, 
+
+  .btn-primary.active,
   .btn-primary[data-state="active"],
   .btn-primary.selected {
     background-color: var(--brand-rouge);
     border-color: var(--brand-rouge);
     color: var(--brand-blanc);
   }
-  
+
   /* Outline button with new color scheme */
   .btn-outline {
     background-color: transparent;
@@ -291,21 +291,21 @@ html {
     border: 1px solid var(--brand-bleu);
     transition: all 0.2s ease-in-out;
   }
-  
+
   .btn-outline:hover {
     background-color: var(--brand-bleu-light);
     border-color: var(--brand-bleu-light);
     color: var(--brand-blanc);
   }
-  
-  .btn-outline.active, 
+
+  .btn-outline.active,
   .btn-outline[data-state="active"],
   .btn-outline.selected {
     background-color: var(--brand-rouge);
     border-color: var(--brand-rouge);
     color: var(--brand-blanc);
   }
-  
+
   /* Navigation button style for sidebar */
   .nav-button {
     background-color: transparent;
@@ -313,12 +313,12 @@ html {
     border: none;
     transition: all 0.2s ease-in-out;
   }
-  
+
   .nav-button:hover {
     background-color: rgba(52, 152, 219, 0.1);
     color: var(--brand-bleu-light);
   }
-  
+
   .nav-button.active {
     background-color: rgba(231, 76, 60, 0.1);
     color: var(--brand-rouge);

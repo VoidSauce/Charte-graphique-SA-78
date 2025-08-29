@@ -52,8 +52,8 @@ function ColorSwatch({ name, value, description, usage, className = '' }: ColorS
 export function ColorPalette() {
   const primaryColors = [
     {
-      name: 'Rouge Français pastel',
-      value: '#e74c3c',
+      name: 'Rouge Français pastel vif',
+      value: '#e62727',
       description: 'Rouge primaire inspiré du drapeau français',
       usage: 'Éléments sélectionnés, accents de marque, alertes importantes'
     },
@@ -172,7 +172,7 @@ export function ColorPalette() {
                 <div className="w-8 h-8 rounded bg-brand-rouge"></div>
                 <div>
                   <p className="text-sm font-medium">Rouge Français</p>
-                  <code className="text-xs text-muted-foreground">#e74c3c</code>
+                  <code className="text-xs text-muted-foreground">#e62727</code>
                 </div>
               </div>
               <p className="text-sm text-auto-steel">
@@ -187,7 +187,7 @@ export function ColorPalette() {
         <h3 className="mb-4 text-brand-bleu">Guidelines d'Accessibilité</h3>
         <div className="space-y-2 text-sm">
           <p>• Toutes les combinaisons de couleurs respectent les standards WCAG 2.1 AA (ratio de contraste 4.5:1 minimum)</p>
-          <p>• Rouge Français (#e74c3c) offre un contraste suffisant sur arrière-plans blancs</p>
+          <p>• Rouge Français (#e62727) offre un contraste suffisant sur arrière-plans blancs</p>
           <p>• Bleu Français (#0055A4) assure une excellente lisibilité pour le texte principal</p>
           <p>• Ne jamais utiliser la couleur seule pour transmettre une information - toujours associer avec des icônes ou du texte</p>
           <p>• Tester les designs avec des outils de simulation de daltonisme avant déploiement</p>
@@ -202,7 +202,7 @@ export function ColorPalette() {
             <div className="space-y-2 text-sm font-mono">
               <div className="flex justify-between">
                 <span>--brand-rouge:</span>
-                <span className="text-brand-rouge">#e74c3c</span>
+                <span className="text-brand-rouge">#e62727</span>
               </div>
               <div className="flex justify-between">
                 <span>--brand-blanc:</span>
